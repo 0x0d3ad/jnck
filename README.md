@@ -7,9 +7,11 @@ Ini adalah skrip bash sederhana yang akan membantu Anda melakukan bug hunting pa
 Untuk menggunakan skrip ini, Anda memerlukan beberapa tools yang harus diinstall terlebih dahulu:
 
 - [Subscraper](https://github.com/m8sec/subscraper)
+- [Subfinder](https://github.com/projectdiscovery/subfinder)
 - [Httpx](https://github.com/projectdiscovery/httpx)
 - [Aquatone](https://github.com/michenriksen/aquatone)
 - [Nuclei](https://github.com/projectdiscovery/nuclei)
+- [Katana](https://github.com/projectdiscovery/katana)
 
 Pastikan tools-tools tersebut sudah terinstall di sistem Anda sebelum menjalankan skrip ini.
 
