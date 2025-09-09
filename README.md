@@ -9,7 +9,6 @@ Untuk menggunakan skrip ini, Anda memerlukan beberapa tools yang harus diinstall
 - [Subscraper](https://github.com/m8sec/subscraper)
 - [Subfinder](https://github.com/projectdiscovery/subfinder)
 - [Httpx](https://github.com/projectdiscovery/httpx)
-- [Aquatone](https://github.com/michenriksen/aquatone)
 - [Nuclei](https://github.com/projectdiscovery/nuclei)
 - [Katana](https://github.com/projectdiscovery/katana)
 
@@ -19,7 +18,7 @@ Pastikan tools-tools tersebut sudah terinstall di sistem Anda sebelum menjalanka
 
 1. Clone repositori ini dengan perintah `git clone https://github.com/0x0d3ad/jnck.git`
 2. Masuk ke direktori `jnck` dengan perintah `cd jnck`
-3. Jalankan skrip dengan perintah `chmod +x jnck.sh` & `./jnck.sh`
+3. Jalankan skrip dengan perintah `chmod +x jnck.sh` & `./jnck.sh -d target.com -o /path/to/output`
 4. Masukkan domain yang ingin di-scan
 5. Masukkan lokasi direktori untuk menyimpan hasil scan
 6. Skrip akan melakukan subdomain enumeration, memeriksa subdomain yang aktif, dan melakukan scanning vulnerabilitas menggunakan Nuclei
