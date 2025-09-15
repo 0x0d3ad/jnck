@@ -138,7 +138,7 @@ filter_active_subdomains() {
     fi
     
     # Run httpx to filter active subdomains
-    if httpx -l "$input_file" -o "$output_file" -silent -mc 200,301,302,307,403 &>/dev/null; then
+    if httpx -l "$input_file" -o "$output_file" -silent -mc 200,301,302,307,403,404,405 &>/dev/null; then
         echo -e "${GREEN} Done.${NC}"
     else
         echo -e "${RED} Failed.${NC}"
